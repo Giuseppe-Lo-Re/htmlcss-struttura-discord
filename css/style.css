@@ -5,3 +5,60 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color:#add9e6 ;
+}
+
+/* COMMON */
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+/* HEADER */
+.header-top {
+    display:flex;
+    background-color:#daa521 ;
+    margin: 15px;
+}
+
+.logo,
+nav,
+.login {
+    /* TEST */
+    border: 1px dotted black;
+    padding: 10px;
+}
+
+/* Logo */
+.logo {
+    width: 20%; 
+}
+
+/* Nav */
+nav {
+    width: 60%;
+
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu li {
+    padding: 0 10px;
+}
+
+/* Login */
+.login {
+    width: 20%;
+    text-align: right;
+}
+
+
+
+
+
