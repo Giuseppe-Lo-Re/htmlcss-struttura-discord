@@ -77,3 +77,31 @@ nav {
     height: 400px;
 }
   
+/* PAGE CENTRAL CONTENT */
+.col-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: auto;
+    width: 100%;
+    /* TEST */
+    height: 500px;
+    
+}
+
+.col-large {
+    width: 40%;
+    background-color:#1d91ff ;
+    border: 1px dotted black;
+    /* TEST */
+    height: 400px;
+}
+
+.col-tight {
+    width: 20%;
+    background-color: #FEC1CB;
+    border: 1px dotted black;
+    /* TEST */
+    height: 400px;
+}
