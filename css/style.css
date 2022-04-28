@@ -32,7 +32,7 @@
     margin: 15px;
 }
 
-.logo,
+.header-logo,
 nav,
 .login {
     /* TEST */
@@ -41,14 +41,13 @@ nav,
 }
 
 /* Logo */
-.logo {
+.header-logo {
     width: 20%; 
 }
 
 /* Nav */
 nav {
     width: 60%;
-
 }
 
 .menu {
@@ -92,7 +91,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 25px auto 50px;
+    /* margin: 25px auto 50px; */
     padding: 60px 0;  
 }
 
@@ -138,4 +137,28 @@ nav {
     border: 1px dotted white;
     /* TEST */
     height: 1400px; 
+}
+
+/* FOOTER */
+.footer-container {
+    background-color:#7fffd4 ;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    /* TEST */
+    
+
+
+
+}
+
+.footer-logo,
+.footer-button {
+    border: 1px dotted black;
+    padding: 10px;
+    background-color:#f08080 ;
+    margin: 15px 0;
+}
+
+hr { color: #d3d3d3;
 }
