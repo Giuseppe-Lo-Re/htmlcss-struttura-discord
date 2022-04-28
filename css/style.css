@@ -45,11 +45,15 @@ nav {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    
 }
 
 .menu li {
     padding: 0 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* Login */
@@ -58,7 +62,18 @@ nav {
     text-align: right;
 }
 
+.header-bottom {
+    display:flex;
+    background-color:#02008b ;
+    /* TEST */
+    height: 500px;
+}
 
-
-
-
+.jumbotron {
+    width: 50%;
+    margin:auto;
+    border: 1px dotted black;
+    background-color:#ee82ee ;
+    height: 400px;
+}
+  
