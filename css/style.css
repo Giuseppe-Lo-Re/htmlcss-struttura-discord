@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color:#add9e6 ;
+}
 
 /* COMMON */
 .container {
@@ -22,7 +25,11 @@
 
 .col-container-bgblack {
     background-color: black;
-    color: white;
+}
+
+/* UTILITY */
+.paddingtop25 {
+    padding-top: 50px;
 }
 
 /* HEADER */
@@ -35,7 +42,6 @@
 .header-logo,
 nav,
 .login {
-    /* TEST */
     border: 1px dotted black;
     padding: 10px;
 }
@@ -144,8 +150,7 @@ nav {
     background-color:#7fffd4 ;
     display: flex;
     justify-content: space-between;
-    margin: auto;
-    /* TEST */
+    
     
 
 
