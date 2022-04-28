@@ -15,6 +15,10 @@ body {
     margin: auto;
 }
 
+/* main:nth-child(2) {
+    background-color: grey;
+} */
+
 /* HEADER */
 .header-top {
     display:flex;
@@ -66,7 +70,7 @@ nav {
     display:flex;
     background-color:#02008b ;
     /* TEST */
-    height: 500px;
+    height: 600px;
 }
 
 .jumbotron {
@@ -74,7 +78,7 @@ nav {
     margin:auto;
     border: 1px dotted black;
     background-color:#ee82ee ;
-    height: 400px;
+    height: 450px;
 }
   
 /* PAGE CENTRAL CONTENT */
@@ -84,10 +88,9 @@ nav {
     align-items: center;
     background-color: white;
     margin: auto;
-    width: 100%;
+    /* width: 100%; */
     /* TEST */
-    height: 500px;
-    
+    height: 700px;
 }
 
 .col-large {
@@ -95,13 +98,25 @@ nav {
     background-color:#1d91ff ;
     border: 1px dotted black;
     /* TEST */
-    height: 400px;
+    height: 600px;
 }
 
 .col-tight {
-    width: 20%;
+    width: 30%;
     background-color: #FEC1CB;
     border: 1px dotted black;
     /* TEST */
-    height: 400px;
+    height: 600px;
+}
+
+.col-whole {
+    background-color:#238b21 ;
+    border: 1px dotted black;
+    width: 70%;
+    /* TEST */
+    height: 600px;
+    
+   
+    
+   
 }
