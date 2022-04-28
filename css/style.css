@@ -5,9 +5,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color:#add9e6 ;
-}
 
 /* COMMON */
 .container {
@@ -15,9 +12,13 @@ body {
     margin: auto;
 }
 
-/* main:nth-child(2) {
-    background-color: grey;
-} */
+.col-container-bgwhite {
+    background-color: white;
+}
+
+.col-container-bggrey {
+    background-color: #d3d3d3;
+}
 
 /* HEADER */
 .header-top {
@@ -86,11 +87,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    margin: auto;
-    /* width: 100%; */
-    /* TEST */
-    height: 700px;
+    margin: 25px auto 50px;
+    padding: 60px 0;  
 }
 
 .col-large {
@@ -114,9 +112,5 @@ nav {
     border: 1px dotted black;
     width: 70%;
     /* TEST */
-    height: 600px;
-    
-   
-    
-   
+    height: 2000px;  
 }
